@@ -10,7 +10,7 @@ navLinks.forEach(link => {
 const projects = {
   floral: {
     title: "Floral Essence Dynamic Website",
-    image: "images/floral-essence.png",
+    image: "images/floralessence.png",
     description:
       "Floral Essence is a dynamic flower shop website developed as an academic project. It allows users to browse flower products and interact with basic online shopping features.",
     features: [
@@ -25,7 +25,7 @@ const projects = {
 
   fitness: {
     title: "Fitness Mobile Application",
-    image: "images/fitness-app.png",
+    image: "images/floralessence.png",
     description:
       "Fitness Mobile Application is a simple mobile app developed using Kotlin as an academic assignment project. The app focuses on basic fitness-related functions and user-friendly mobile interfaces.",
     features: [
@@ -39,7 +39,7 @@ const projects = {
 
   figma: {
     title: "Figma UI Design Project",
-    image: "images/figma-design.png",
+    image: "images/floralessence.png",
     description:
       "This project includes UI design screens and prototype layouts created using Figma. It helped improve my understanding of layout design, user experience, and visual consistency.",
     features: [
