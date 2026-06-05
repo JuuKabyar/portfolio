@@ -1004,3 +1004,84 @@ header {
     color: white;
     transform: translateY(-5px);
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #111827;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 20px 0;
+    display: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 16px 16px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 12px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero h3 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    margin: auto;
+  }
+
+  .hero-img img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .section {
+    padding: 30px 20px;
+  }
+
+  .projects-grid,
+  .skills-grid,
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .follow-icons {
+    flex-wrap: wrap;
+  }
+}
