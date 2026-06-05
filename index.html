@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juu Kabyar Htun | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">
+        Juu<span>Kabyar</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1>Juu Kabyar Htun</h1>
+      <h3>Computing Student | Web Developer | UI Designer</h3>
+
+      <p>
+        I am a motivated computing student with knowledge in web development,
+        programming, technical support, and problem-solving.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="images/profile.png" alt="Juu Kabyar Htun">
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <p class="section-label">ABOUT ME</p>
+
+    <h2>Designing solutions, not just code</h2>
+
+    <p class="section-subtitle">
+      I am a motivated and detail-oriented computing student with a passion
+      for technology, problem-solving, and creating useful digital experiences.
+    </p>
+
+    <div class="about-cards">
+      <div class="about-card">
+        <i class="bx bxs-graduation"></i>
+        <h3>NCC Level 5 Diploma</h3>
+        <p>
+          Currently pursuing an NCC Level 5 Diploma in Computing and
+          strengthening my knowledge in software development and IT.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>
+          Developing responsive websites using HTML, CSS, JavaScript,
+          PHP, and MySQL through academic and personal projects.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <i class="bx bx-bulb"></i>
+        <h3>Continuous Learning</h3>
+        <p>
+          Always exploring new technologies, programming concepts,
+          and industry best practices to improve my technical skills.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <i class="bx bx-group"></i>
+        <h3>Team Player</h3>
+        <p>
+          Strong communication, collaboration, and problem-solving
+          abilities developed through academic projects and workshops.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+
+    <p class="section-label">SKILLS</p>
+
+    <h2>My technical toolkit</h2>
+
+    <p class="section-subtitle">
+      A mix of programming, web, and IT support skills built through
+      coursework and self-learning.
+    </p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>Programming Languages</h3>
+
+        <div class="skill-tags">
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+          <span>Kotlin</span>
+          <span>C#</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Web Technologies</h3>
+
+        <div class="skill-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>JavaScript</span>
+          <span>PHP</span>
+          <span>MySQL</span>
+          <span>Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools & Software</h3>
+
+        <div class="skill-tags">
+          <span>VS Code</span>
+          <span>XAMPP</span>
+          <span>Android Studio</span>
+          <span>Visual Studio 2022</span>
+          <span>Microsoft Office</span>
+          <span>Adobe Photoshop</span>
+          <span>Figma</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3>Additional Skills</h3>
+
+        <div class="skill-tags">
+          <span>Technical Support</span>
+          <span>Troubleshooting</span>
+          <span>Basic Networking</span>
+          <span>Database Management</span>
+          <span>UI/UX Design</span>
+          <span>Git & GitHub</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="projects" class="projects-section">
+    <p class="section-label">PROJECTS</p>
+
+    <h2>Recent Projects</h2>
+
+    <p class="section-subtitle">
+      Some academic and personal projects I have completed while learning web and software development.
+    </p>
+
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <img src="images/floralessence.png" alt="Floral Essence Website" onclick="openProject('floral')">
+
+        <div class="project-content">
+          <h3>Floral Essence Website</h3>
+          <p>A dynamic flower shop website using PHP, MySQL, HTML, CSS, and JavaScript.</p>
+
+          <div class="project-tags">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>JavaScript</span>
+          </div>
+
+          <button onclick="openProject('floral')">View Project</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/floralessence.png" alt="Fitness Mobile Application" onclick="openProject('fitness')">
+
+        <div class="project-content">
+          <h3>Fitness Mobile App</h3>
+          <p>A fitness mobile application developed using Kotlin as an academic project.</p>
+
+          <div class="project-tags">
+            <span>Kotlin</span>
+            <span>Mobile App</span>
+          </div>
+
+          <button onclick="openProject('fitness')">View Project</button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="images/floralessence.png" alt="Figma UI Design Project" onclick="openProject('figma')">
+
+        <div class="project-content">
+          <h3>Figma UI Design</h3>
+          <p>UI design and prototype screens created using Figma.</p>
+
+          <div class="project-tags">
+            <span>Figma</span>
+            <span>UI Design</span>
+          </div>
+
+          <button onclick="openProject('figma')">View Project</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="project-modal" id="projectModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeProject()">&times;</span>
+
+      <img id="modalImage" src="" alt="Project Image">
+
+      <h3 id="modalTitle"></h3>
+
+      <p id="modalDescription"></p>
+
+      <ul id="modalFeatures"></ul>
+    </div>
+  </div>
+
+  <section id="education" class="education-section">
+    <p class="section-label">Education</p>
+    <h2>Academic Timeline</h2>
+    <p class="section-subtitle">
+      My academic journey across computing, accounting, and language studies.
+    </p>
+
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="timeline-card">
+          <span>2023</span>
+          <h3>University Foundation Program</h3>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-card">
+          <span>2024</span>
+          <h3>NCC Level 3 Diploma in Computing</h3>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-card">
+          <span>2025</span>
+          <h3>NCC Level 4 Diploma in Computing</h3>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-card">
+          <span>Awaiting Result</span>
+          <h3>NCC Level 5 Diploma in Computing</h3>
+        </div>
+      </div>
+
+      <div class="timeline-item left">
+        <div class="timeline-card">
+          <span>2025</span>
+          <h3>Diploma in Management Accounting</h3>
+        </div>
+      </div>
+
+      <div class="timeline-item right">
+        <div class="timeline-card">
+          <span>Awaiting Result</span>
+          <h3>Diploma in English</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="training" class="training-section">
+    <p class="section-label">Achievements</p>
+    <h2>Professional Development</h2>
+    <p class="section-subtitle">
+      Workshops, certifications, and learning activities that have helped
+      strengthen my technical, professional, and communication skills.
+    </p>
+
+    <div class="training-wrapper">
+      <div class="training-column">
+        <h3 class="column-title">
+          <i class="bx bx-medal"></i> Certificates
+        </h3>
+
+        <div class="training-card">
+          <div class="training-icon">
+            <i class="bx bx-medal"></i>
+          </div>
+          <div>
+            <p class="training-type">Certificate</p>
+            <h4>Python Object-Oriented Programming</h4>
+          </div>
+        </div>
+
+        <div class="training-card">
+          <div class="training-icon">
+            <i class="bx bx-medal"></i>
+          </div>
+          <div>
+            <p class="training-type">Certificate</p>
+            <h4>Basic Computer Learner's Course, DTP & Photoshop</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="training-column">
+        <h3 class="column-title">
+          <i class="bx bx-book-open"></i> Programs & Workshops
+        </h3>
+
+        <div class="training-card">
+          <div class="training-icon">
+            <i class="bx bx-book-open"></i>
+          </div>
+          <div>
+            <p class="training-type">Program</p>
+            <h4>KBZ Student Ambassador Program</h4>
+          </div>
+        </div>
+
+        <div class="training-card">
+          <div class="training-icon">
+            <i class="bx bx-book-open"></i>
+          </div>
+          <div>
+            <p class="training-type">Workshop</p>
+            <h4>Routing Fundamentals Workshop</h4>
+          </div>
+        </div>
+
+        <div class="training-card">
+          <div class="training-icon">
+            <i class="bx bx-book-open"></i>
+          </div>
+          <div>
+            <p class="training-type">Workshop</p>
+            <h4>Accounting & Accountant Process Workshop</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <p class="section-label">CONTACT INFO</p>
+
+    <h2>Let's work together</h2>
+
+    <p class="section-subtitle">
+      Have an opportunity or just want to say hi? Drop a message below.
+    </p>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="bx bx-phone"></i>
+          </div>
+          <div>
+            <p>Phone</p>
+            <h3>09 427 533 492</h3>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="bx bx-envelope"></i>
+          </div>
+          <div>
+            <p>Email</p>
+            <h3>177juu17@gmail.com</h3>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="bx bx-map"></i>
+          </div>
+          <div>
+            <p>Location</p>
+            <h3>Yangon, Myanmar</h3>
+          </div>
+        </div>
+
+        <div class="follow-card">
+          <p>Connect With Me</p>
+          <small>Let's connect through my professional and social platforms.</small>
+
+          <div class="follow-icons">
+              <a href="https://github.com/JuuKabyar"><i class="fa-brands fa-github"></i></a>
+
+              <a href="linkedin.com/in/juu-kabyar-htun-juu-29347836a"><i class="fa-brands fa-linkedin"></i></a>
+
+              <a href="https://t.me/juu_kb"><i class="fa-brands fa-telegram"></i></a>
+
+              <a href="#"><i class="fa-brands fa-viber"></i></a>
+
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+      </div>
+
+      </div>
+
+      <form class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your name">
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" placeholder="Project opportunity">
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell me a little about it..."></textarea>
+        </div>
+
+        <button type="submit" class="send-btn">
+          <i class="bx bx-send"></i>
+          Send message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Juu Kabyar Htun. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
